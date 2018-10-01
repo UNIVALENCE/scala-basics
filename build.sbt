@@ -14,12 +14,6 @@ showSuccess := false
 
 offline := true
 
-libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
-
-libraryDependencies += "org.scala-lang" % "scala-compiler" % scalaVersion.value
-
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0"
-
 addCommandAlias("partie1-1", "~ testOnly first_steps")
 
 addCommandAlias("partie1-2", "~ testOnly next_steps")
