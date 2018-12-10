@@ -17,7 +17,7 @@ class e0_vars_vals extends HandsOnSuite {
   exercise("One can change the value affected to a var after it has been declared") {
     var a = 5
     anchor(a)
-    a should be(__)
+    a should be(6)
     
     anchor(a)
 
